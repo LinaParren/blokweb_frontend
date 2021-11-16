@@ -40,7 +40,7 @@ PLUS Supermarkt: https://www.plus.nl
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
-<img src="./images/pagina1.png" width="375px" alt="home-page">
+<img src="images/pagina1" width="375px" alt="home-page">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
