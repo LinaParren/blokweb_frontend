@@ -39,11 +39,11 @@ hier je focus (kies uit responsive óf surface plane)
 PLUS Supermarkt: https://www.plus.nl
 
 #### Screenshot van de eerste pagina (small screen): 
-Home page 
-<img src="images/pagina1" width="375px" alt="home-page">
+Home page
+<img src="images/pagina1.png" width="375px" alt="home">
 
-#### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
+#### Screenshot van de tweede pagina (small screen):
+Snoep en koek 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
