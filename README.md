@@ -22,7 +22,7 @@ Lina Parren
 Blauw
 
 #### Je focus:
-hier je focus (kies uit responsive óf surface plane)
+Responsive
  
 </details>
 
