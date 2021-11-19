@@ -43,8 +43,8 @@ Home page
 <img src="images/pagina1.png" width="375px" alt="home">
 
 #### Screenshot van de tweede pagina (small screen):
-Snoep, koek, chips, zoutjes, noten 
-<img src="images/pagina2.png" width="375px" alt="Snoep, koek, chips, zoutjes, noten">
+Snoep en koek 
+<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -56,7 +56,7 @@ Snoep, koek, chips, zoutjes, noten
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/deels_af.png" width="375px" alt="breakdown van de hele pagina">
+<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
