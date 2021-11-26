@@ -13,7 +13,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 <details>
-<summary>uitwerken voor kick-off werkgroep</summary>
+<!-- <summary>uitwerken voor kick-off werkgroep</summary> -->
 
 ### Auteur:
 Lina Parren
@@ -33,7 +33,7 @@ Responsive
 ## Je website
 
 <details>
-<summary>uitwerken voor kick-off werkgroep</summary>
+<!-- <summary>uitwerken voor kick-off werkgroep</summary> -->
 
 ### Je opdracht:
 PLUS Supermarkt: https://www.plus.nl
@@ -53,16 +53,16 @@ Snoep, koek, chips, zoutjes, noten
 ## Breakdownschets (week 1)
 
 <details>
-<summary>uitwerken na afloop 2e werkgroep</summary>
+<!-- <summary>uitwerken na afloop 2e werkgroep</summary> -->
 
 ### de hele pagina: 
 <img src="images/deels_af.png" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+<img src="images/breakdown1.png" width="375px" alt="breakdown van een dynamisch deel">
 
 ### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="images/breakdown2.png" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -73,20 +73,21 @@ Snoep, koek, chips, zoutjes, noten
 ## Voortgang 1 (week 2)
 
 <details open>
-<summary>uitwerken voor 1e voortgang</summary>
+<!-- <summary>uitwerken voor 1e voortgang</summary> -->
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Het schrijven van de html verliep vrij vlot. Ik had er plezier aan en daardoor ging het soepel. De css werkt me nog een beetje tegen, het doet niet wat ik wil. Al met al gaat het goed, ik moet alleen nog wat dingen corrigeren. De tweede pagina moet natuurlijk ook nog gedaan worden.
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
+| Lina           | student 2          | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| De 3e sectie   | en dit             | en ik dit    | en dan ik dat    |
+| staat niet     | dit als er tijd is | nog een punt | dit wil ik zeker |
+| aligned in het | ...                | ...          | ...              |
+| midden         |
 
 
 ### Verslag van meeting
