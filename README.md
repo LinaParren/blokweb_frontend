@@ -19,7 +19,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 Lina Parren
 
 #### Je startniveau:
-Blauw
+Blauw/Rood
 
 #### Je focus:
 Responsive
@@ -43,7 +43,7 @@ Home page
 <img src="images/pagina1.png" width="375px" alt="home">
 
 #### Screenshot van de tweede pagina (small screen):
-Snoep, koek, chips, zoutjes, noten 
+Snoep, koek, chips, zoutjes, noten
 <img src="images/pagina2.png" width="375px" alt="Snoep, koek, chips, zoutjes, noten">
  
 </details>
