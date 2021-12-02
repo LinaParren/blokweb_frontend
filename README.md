@@ -91,12 +91,9 @@ samen met je groepje opstellen
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Geen gberuik van pixels, omzetten naar em
+- Gebruik meteen links voor dingen die doorlinken, werk niet eerst met li
 
 </details>
 
@@ -107,10 +104,9 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ## Voortgang 2 (week 3)
 
 <details>
-<summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik ben gestart met de tweede pagina. Deze loopt echter niet helemaal lekker met de css. Verder heb ik de eerste pagina al deels responsive gemaakt. Dit gaat bij het ene onderdeel beter dan bij het andere. 
 
 
 ### Agenda voor meeting
