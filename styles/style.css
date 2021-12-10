@@ -11,22 +11,30 @@
   list-style: none;
 }
 
+:root{
+  --lichtgroen: #80bd1d;
+  --donkergroen: #227647;
+  --backgroundgroen: #e5f1d6;
+  --lichtgrijs: #ddd;
+  --donkergrijs: #333;
+}
+
 
 header{
   position: relative;
 }
 
 
-h3 {
+/* h3 {
   font-weight: bold;
   font-size: 1.8em;
-}
+} */
 
 h4 {
   font-size: 1em;
   line-height: 1.2em;
   white-space: normal;
-  color: #333333;
+  color: var(--donkergrijs);
 }
 
 
@@ -36,23 +44,23 @@ nav{
   margin-right: auto;
 }
 
-nav > ol{
+nav > ul{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
-nav > ol > li {
+nav > ul > li {
   width: 30%;
 }
 
 
-nav > ol > li:nth-of-type(2) > img{
+nav > ul > li:nth-of-type(2) > img{
   width: 90px;
 }
 
-nav > ol > li:nth-of-type(3) > img{
+nav > ul > li:nth-of-type(3) > img{
   width: 45px;
 }
 
@@ -62,14 +70,14 @@ section {
   margin-top: 2em;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  /* width: 90%; */
 
   position: relative;
 }
 
 
 
-section:nth-of-type(1){
+.pagina1 section:nth-of-type(1){
   margin-top: 1em;
   position: sticky;
   top: 0;
@@ -79,7 +87,7 @@ section:nth-of-type(1){
   background-color: #F5F0EC;
 }
 
-section:nth-of-type(1) > ol{ 
+.pagina1 section:nth-of-type(1) > ul{ 
   display: flex;
   justify-content: space-between;
   margin-left: auto;
@@ -87,119 +95,142 @@ section:nth-of-type(1) > ol{
   width: 90%;
 }
 
-section:nth-of-type(1) > ol > li:first-of-type{ 
+.pagina1 section:nth-of-type(1) > ul > li:first-of-type{ 
   margin-top: 1.4em;
   font-size: 1em;
   letter-spacing: 0.05em;
   font-weight: bold;
-  color: #333;
+  color: var(--donkergrijs);
   text-decoration: underline;
 }
 
-section:nth-of-type(1) > ol > li:last-of-type{ 
+.pagina1 section:nth-of-type(1) > ul > li:last-of-type{ 
   margin-top: 0.1em;
   font-size: 1em;
   letter-spacing: 0.05em;
-  color: #ddd;
+  color: var(--lichtgrijs);
 }
 
 
 
-section:nth-of-type(2) > ol > li{
+.pagina1 section:nth-of-type(2){
+  width: 90%;
+}
+
+.pagina1 section:nth-of-type(2) > ul > li{
   margin-bottom: 1em;
+  height: 10em;
 }
 
-section:nth-of-type(2) > ol > li > h4{
+.pagina1 section:nth-of-type(2) > ul > li > h4{
   max-width: 40%;
   margin: 1em;
 }
 
-section:nth-of-type(2) > ol > li > p{
+.pagina1 section:nth-of-type(2) > ul > li > p{
   max-width: 50%;
   margin: 1em;
 }
 
-section:nth-of-type(2) > ol > li > img{
+/* section:nth-of-type(2) > ul > li > img{
   max-width: 90%;
-}
-
-
-
-section:nth-of-type(3) {
-  position: relative;
-}
-
-/* section:nth-of-type(3) > ol{
-  display: flex;
-  flex-wrap: wrap;
 } */
 
-section:nth-of-type(3) > ol > li > p{
+.pagina1 section:nth-of-type(2) > ul > li:nth-of-type(1){
+  background-image: url(../images/plus.nl/Boodschappenpakket.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.pagina1 section:nth-of-type(2) > ul > li:nth-of-type(2){
+  background-image: url(../images/plus.nl/Laagblijvers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.pagina1 section:nth-of-type(2) > ul > li:nth-of-type(3){
+  background-image: url(../images/plus.nl/Wijnshop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.pagina1 section:nth-of-type(2) > ul > li:nth-of-type(4){
+  background-image: url(../images/plus.nl/Homepagebanner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+
+
+.pagina1 section:nth-of-type(3) {
+  position: relative;
+  padding-bottom: 2em;
+  width: 90%;
+}
+
+.pagina1 section:nth-of-type(3) > ul > li > p{
   font-size: 1em;
   font-weight: bold;
 }
 
-section:nth-of-type(3) > ol > li > img{
+.pagina1 section:nth-of-type(3) > ul > li > img{
   width: 3.1em;
   display: flex;
 }
 
-section:nth-of-type(3) > ol > li{
+.pagina1 section:nth-of-type(3) > ul > li{
   display: flex;
   align-items: center;
   background-color: white;
-  box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
+  box-shadow: 0 0 0.6em 0 rgb(0 0 0 / 20%);
   border-radius: 0.2em;
   margin-top: 1em;
 
   padding-top: 0.3em;
   margin-bottom: 0.6em;
-
-  /* max-width: 30em;
-  min-width: 30em;
-  justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto; */
 }
 
-section:nth-of-type(3) > ol > li:last-of-type{
+.pagina1 section:nth-of-type(3) > ul > li:last-of-type{
   position: absolute;
-  bottom: 5%;
-  right: 30%;
-  left: 30%;
+  bottom: 0;
+  right: 20%;
+  left: 20%;
 
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: white;
-  box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
+  box-shadow: 0 0 0.6em 0 rgb(0 0 0 / 20%);
+  border: solid 0.2em var(--donkergroen);
   border-radius: 0.2em;
-  margin-top: 1em;
 
-  padding-top: 0.3em;
-  margin-bottom: 0.6em;
+  padding: 0 0.6em;
+  height: 3.6em;
 }
 
 
 
-section:nth-of-type(4){
-  background-color: #e5f1d6;
+.pagina1 section:nth-of-type(4){
+  background-color: var(--backgroundgroen);
   position: relative;
+  width: 90%;
 }
 
-section:nth-of-type(4) > h3{
+.pagina1 section:nth-of-type(4) > h3{
   margin-left: 0.5em;
   line-height: 1.71;
-  color: #333333;
+  color: var(--donkergrijs);
   max-width: 60%;
   padding-top: 1em;
 }
 
-section:nth-of-type(4) > ol{
+.pagina1 section:nth-of-type(4) > ul{
   display: flex;
   flex-wrap: wrap;
 }
 
-section:nth-of-type(4) > ol > li{
+.pagina1 section:nth-of-type(4) > ul > li{
   font-size: 1.1em;
   line-height: 2.7em;
   white-space: normal;
@@ -215,7 +246,7 @@ section:nth-of-type(4) > ol > li{
   min-width: 20em;
 
   background-color: white;
-  border: 1px solid #80bd1d;
+  border: 1px solid var(--lichtgroen);
   border-radius: 0.6em;
 
   position: relative;
@@ -225,7 +256,7 @@ section:nth-of-type(4) > ol > li{
   justify-content: space-between;
 }
 
-section:nth-of-type(4) > section{
+.pagina1 section:nth-of-type(4) > section{
   position: absolute;
   right: -0.8em;
   top: 0.1em;
@@ -235,12 +266,12 @@ section:nth-of-type(4) > section{
   height: 9em;
 
   text-align: center;
-  background-color: #7fbc1c;
+  background-color: var(--lichtgroen);
   border-radius: 50%;
   margin: .5em;
 }
 
-section:nth-of-type(4) > section > p{
+.pagina1 section:nth-of-type(4) > section > p{
   line-height: 1.5;
   color: white;
   
@@ -254,12 +285,12 @@ section:nth-of-type(4) > section > p{
 
 
 
-section:nth-of-type(5){
+.pagina1 section:nth-of-type(5){
   background-color: #F5F0EC;
   padding-top: 1em;
 }
 
-section:nth-of-type(5) > ul{
+.pagina1 section:nth-of-type(5) > ul{
   display: flex;
   justify-content: space-between;
   width: 60%;
@@ -269,19 +300,20 @@ section:nth-of-type(5) > ul{
 
 
 
-section:nth-of-type(6){
+.pagina1 section:nth-of-type(6){
   background-color: #EAEAEA;
   padding-top: 1em;
+  margin-top: 0;
 }
 
-section:nth-of-type(6) > ol > li{
+.pagina1 section:nth-of-type(6) > ul > li{
   margin-bottom: 1em;
   font-size: 0.8em;
   font-weight: bold;
   color: #333;
 }
 
-section:nth-of-type(6) > ol > li:last-of-type{
+.pagina1 section:nth-of-type(6) > ul > li:last-of-type{
   background-color: #F5F5F5;
 }
 
@@ -289,59 +321,59 @@ section:nth-of-type(6) > ol > li:last-of-type{
 
 
 /* -------- */
-section:nth-of-type(2) > ol > li:nth-of-type(1){
+/* section:nth-of-type(2) > ul > li:nth-of-type(1){
   position: relative;  
 }
-section:nth-of-type(2) > ol > li:nth-of-type(1) > h4{
+section:nth-of-type(2) > ul > li:nth-of-type(1) > h4{
   position: absolute;  
   top: 0;
 }
-section:nth-of-type(2) > ol > li:nth-of-type(1) > p{
+section:nth-of-type(2) > ul > li:nth-of-type(1) > p{
   position: absolute;  
   top: 4em;
 }
 
-section:nth-of-type(2) > ol > li:nth-of-type(2){
+section:nth-of-type(2) > ul > li:nth-of-type(2){
   position: relative;  
 }
-section:nth-of-type(2) > ol > li:nth-of-type(2) > h4{
+section:nth-of-type(2) > ul > li:nth-of-type(2) > h4{
   position: absolute;  
   top: 0;
 }
-section:nth-of-type(2) > ol > li:nth-of-type(2) > p{
+section:nth-of-type(2) > ul > li:nth-of-type(2) > p{
   position: absolute;  
   top: 3em;
 }
 
-section:nth-of-type(2) > ol > li:nth-of-type(3){
+section:nth-of-type(2) > ul > li:nth-of-type(3){
   position: relative;  
 }
-section:nth-of-type(2) > ol > li:nth-of-type(3) > h4{
+section:nth-of-type(2) > ul > li:nth-of-type(3) > h4{
   position: absolute;  
   top: 0;
 }
-section:nth-of-type(2) > ol > li:nth-of-type(3) > p{
+section:nth-of-type(2) > ul > li:nth-of-type(3) > p{
   position: absolute;  
   top: 3em;
 }
-section:nth-of-type(2) > ol > li:nth-of-type(4){
+section:nth-of-type(2) > ul > li:nth-of-type(4){
   position: relative;  
 }
-section:nth-of-type(2) > ol > li:nth-of-type(4) > h4{
+section:nth-of-type(2) > ul > li:nth-of-type(4) > h4{
   position: absolute;  
   top: 0;
 }
-section:nth-of-type(2) > ol > li:nth-of-type(4) > p{
+section:nth-of-type(2) > ul > li:nth-of-type(4) > p{
   position: absolute;  
   top: 2em;
-}
+} */
 /* -------- */
 
 
 
 
 
-fieldset {
+.pagina1 section:nth-of-type(1) fieldset{
   width: 50%;
   border: none;
   resize: none;
@@ -352,19 +384,62 @@ fieldset {
   margin-bottom: 0.5em;
 } */
 
-input {
+.pagina1 section:nth-of-type(1) input {
   display: block;
   padding-left: 0.5em;
   height: 3em;
   margin: 0.4em;
-  border: 1px solid #ddd;
+  border: 1px solid var(--lichtgrijs);
   font-size: 1em;
   box-sizing: border-box;
 }
 
-textarea {
+.pagina1 section:nth-of-type(1) input::placeholder{
+  color: var(--donkergrijs);
+}
+
+.pagina1 section:nth-of-type(1) textarea {
   resize: none;
 }
+
+
+
+
+.pagina1 section:nth-of-type(5) form{
+  margin-left: 1em;
+  display: flex;
+}
+
+.pagina1 section:nth-of-type(5) fieldset {
+  width: 50%;
+  border: none;
+  resize: none;
+}
+
+/* .pagina2 label {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+} */
+
+.pagina1 section:nth-of-type(5) input{
+  display: flex;
+  align-content: flex-end;
+  margin: 0.4em;
+  padding: 0 20px 0 20px;
+  color: white;
+  background-color: var(--donkergroen);
+  border: none;
+}
+
+.pagina1 section:nth-of-type(5) textarea {
+  resize: none;
+}
+
+
+
+
+
+
 
 
 @media (min-width: 760px){
@@ -379,18 +454,18 @@ textarea {
 
 
 @media (min-width: 760px){
-  section:nth-of-type(2) > ol{
+  .pagina1 section:nth-of-type(2) > ul{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
   }
 
-  section:nth-of-type(2) > ol > li{
+  .pagina1 section:nth-of-type(2) > ul > li{
     width: span 1;
     /* height: 250px; */
   }
 
-  section:nth-of-type(2) > ol > li:nth-of-type(1){
+  .pagina1 section:nth-of-type(2) > ul > li:nth-of-type(1){
     grid-column-start: 1;
     grid-column-end: -1;
   }
@@ -400,7 +475,7 @@ textarea {
 
 
 @media (min-width: 760px){
-  section:nth-of-type(3) > ol{
+  .pagina1 section:nth-of-type(3) > ul{
     display: grid;
     grid-template-columns:repeat(auto-fit, minmax(15em, 1fr));
     grid-gap: 1em;
@@ -416,74 +491,240 @@ textarea {
 ========================= */
 
 
-
-.pagina2 > section:nth-of-type(2) {
-  position: relative;
-}
-
-.pagina2 > section:nth-of-type(2) > ol > li > p{
-  font-size: 1em;
-  font-weight: bold;
-}
-
-.pagina2 > section:nth-of-type(2) > ol > li > img{
-  width: 3.1em;
-  display: flex;
-}
-
-.pagina2 > section:nth-of-type(2) > ol > li{
-  display: flex;
-  align-items: center;
-  background-color: white;
-  box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
-  border-radius: 0.2em;
+.pagina2 section:nth-of-type(1){
   margin-top: 1em;
-
-  padding-top: 0.3em;
-  margin-bottom: 0.6em;
-}
-
-.pagina2 > section:nth-of-type(2) > ol > li:last-of-type{
-  position: absolute;
-  bottom: 5%;
-  right: 30%;
-  left: 30%;
-
-  display: flex;
-  align-items: center;
-  background-color: white;
-  box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
-  border-radius: 0.2em;
-  margin-top: 1em;
-
-  padding-top: 0.3em;
-  margin-bottom: 0.6em;
-}
-
-
-
-.pagina2 > section:nth-of-type(3){
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  height: 3.8em;
+  width: 100%;
   background-color: #F5F0EC;
 }
 
-.pagina2 > section:nth-of-type(3) > ul{
+.pagina2 section:nth-of-type(1) > ul{ 
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.pagina2 section:nth-of-type(1) > ul > li:first-of-type{ 
+  margin-top: 1.4em;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  color: var(--donkergrijs);
+  text-decoration: underline;
+}
+
+.pagina2 section:nth-of-type(1) > ul > li:last-of-type{ 
+  margin-top: 0.1em;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  color: var(--lichtgrijs);
+}
+
+
+
+
+
+.pagina2 section:nth-of-type(2){
+  background-image: url(../images/plus.nl/Banner2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 8.2em;
+  width: 100%;
+  transform: none;
+}
+
+
+
+
+
+.pagina2 section:nth-of-type(3) {
+  position: relative;
+  padding-bottom: 2em;
+  width: 90%;
+}
+
+.pagina2 section:nth-of-type(3) > ul > li{
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  background-color: white;
+  margin-top: 1em;
+
+  padding-top: 0.3em;
+  margin-bottom: 0.6em;
+  border-bottom: 0.1em solid var(--lichtgrijs);
+}
+
+.pagina2 section:nth-of-type(3) > h3{
+  font-size: 1.5em;
+  color: var(--donkergrijs);
+  font-weight: bold;
+}
+
+.pagina2 section:nth-of-type(3) > ul > li > div > p:nth-of-type(1){
+  color: var(--donkergroen);
+  font-size: 1em;
+}
+.pagina2 section:nth-of-type(3) > ul > li > div > p:nth-of-type(2){
+  font-size: 1em;
+}
+.pagina2 section:nth-of-type(3) > ul > li > div > p:nth-of-type(3){
+  color: #666;
+  font-size: 1em;
+}
+.pagina2 section:nth-of-type(3) > ul > li > div > p:nth-of-type(4){
+  font-size: 1.5em;
+  font-weight: bold;
+  align-items: flex-end;
+}
+
+/* .pagina2 section:nth-of-type(3) > ul > li:last-of-type{
+  position: absolute;
+  bottom: 0;
+  right: 20%;
+  left: 20%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0 0 0.6em 0 rgb(0 0 0 / 20%);
+  border: solid 0.2em #227647;
+  border-radius: 0.2em;
+
+  padding: 0 0.6em;
+  height: 3.6em;
+} */
+
+
+
+
+
+.pagina2 > main > section:nth-of-type(4){
+  background-color: #F5F0EC;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.pagina2 > main > section:nth-of-type(4) > h3{
+  margin-left: 1em;
+  font-size: 1.5em;
+}
+
+.pagina2 > main > section:nth-of-type(4) > p{
+  width: 90%;
+  margin-left: 1em;
+  color: var(--donkergrijs);
+  line-height: 1.5;
+}
+
+.pagina2 > main > section:nth-of-type(4) > ul{
   display: flex;
   justify-content: space-between;
   width: 60%;
   max-width: 50%;
+  margin-left: 1em;
 }
 
 
 
 
-.pagina2 > section:nth-of-type(4){
+
+
+
+
+.pagina2 > main > section:nth-of-type(5){
   background-color: #EAEAEA;
+  padding-top: 1em;
+  margin-top: 0;
 }
 
-.pagina2 > section:nth-of-type(4) > ol > li{
+.pagina2 > main > section:nth-of-type(5) > ul > li{
   margin-bottom: 1em;
+  padding: 0.8em;
+  font-size: 0.8em;
+  font-weight: bold;
+  color: var(--donkergrijs);
+  margin-left: 1em;
+  border-bottom: 0.1em solid white;
 }
 
-.pagina2 > section:nth-of-type(4) > ol > li:last-of-type{
+.pagina2 > main > section:nth-of-type(5) > ul > li:last-of-type{
   background-color: #F5F5F5;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+.pagina2 section:nth-of-type(1) fieldset{
+  width: 50%;
+  border: none;
+  resize: none;
+}
+
+/* label {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+} */
+
+.pagina2 section:nth-of-type(1) input {
+  display: block;
+  padding-left: 0.5em;
+  height: 3em;
+  margin: 0.4em;
+  border: 1px solid var(--lichtgrijs);
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+.pagina2 section:nth-of-type(1) input::placeholder{
+  color: var(--donkergrijs);
+}
+
+.pagina2 section:nth-of-type(1) textarea {
+  resize: none;
+}
+
+
+
+
+
+
+.pagina2 section:nth-of-type(4) form{
+  margin-left: 1em;
+  display: flex;
+}
+
+.pagina2 fieldset {
+  width: 50%;
+  border: none;
+  resize: none;
+}
+
+/* .pagina2 label {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+} */
+
+.pagina2 section:nth-of-type(4) input{
+  display: flex;
+  align-content: flex-end;
+  margin: 0.4em;
+  padding: 0 20px 0 20px;
+  color: white;
+  background-color: var(--donkergroen);
+  border: none;
+}
+
+.pagina2 section:nth-of-type(4) textarea {
+  resize: none;
 }
