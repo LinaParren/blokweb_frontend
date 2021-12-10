@@ -82,12 +82,10 @@ Het schrijven van de html verliep vrij vlot. Ik had er plezier aan en daardoor g
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| Lina           | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| De 3e sectie   | en dit             | en ik dit    | en dan ik dat    |
-| staat niet     | dit als er tijd is | nog een punt | dit wil ik zeker |
-| aligned in het | ...                | ...          | ...              |
-| midden         |
+| Lina           
+| ---            
+| De 3e sectie staat niet aligned in het midden  
+| Header is niet sticky        
 
 
 ### Verslag van meeting
@@ -112,20 +110,18 @@ Ik ben gestart met de tweede pagina. Deze loopt echter niet helemaal lekker met 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| hamburger menu | en dit             | en ik dit    | en dan ik dat    |
-| foto uitlijnen | dit als er tijd is | nog een punt | dit wil ik zeker |
-| > achter link  | ...                | ...          | ...              |
+| student 1           
+| ---               
+| hamburger menu    
+| foto uitlijnen    
+| > achter link     
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Foto aanpassen van img naar background-image
+- Secties moeten breder of in het midden
+- Var toevoegen
 
 </details>
 
