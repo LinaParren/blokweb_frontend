@@ -85,7 +85,7 @@ Het schrijven van de html verliep vrij vlot. Ik had er plezier aan en daardoor g
 
 ### Verslag van meeting
 
-- Geen gberuik van pixels, omzetten naar em
+- Geen gebruik van pixels, omzetten naar em
 - Gebruik meteen links voor dingen die doorlinken, werk niet eerst met li
 
 </details>
@@ -115,7 +115,7 @@ Ik ben gestart met de tweede pagina. Deze loopt echter niet helemaal lekker met 
 
 - Foto aanpassen van img naar background-image
 - Secties moeten breder of in het midden
-- Var toevoegen
+- var toevoegen
 
 </details>
 
@@ -132,7 +132,7 @@ Ik ben gestart met de tweede pagina. Deze loopt echter niet helemaal lekker met 
 Lijst met je bevindingen die in de test naar voren kwamen:
 
 #### Voice-reader
-Ik vond het heel apart om te zien/horen hoe een voice-reader door mijn website gaat. Ik was tevreden over hoe meerdere onderdelen opgelezen werden en vond het ook heel handig dat de voice-reader zelf aangeeft welke toetsen je in moet duwen om een knop te gebruiken.
+Ik vond het heel apart om te zien/horen hoe een voice-reader door mijn website gaat. Ik was tevreden over hoe meerdere onderdelen voorgelezen werden en vond het ook heel handig dat de voice-reader zelf aangeeft welke toetsen je in moet duwen om een knop te gebruiken.
 
 
 #### Tab 
@@ -142,7 +142,7 @@ Ik kan in de website meer linkjes toevoegen om zo onderdelen te creeeren die doo
 
 
 #### Brillen voor slecht zicht
-De brillen die ik op gehad heb, vond ik allemaal niet zo geslaagd in het simuleren van slechtziend zijn. Bij iedere bril kon je er een beetje dorheen kijken, of met dichter op het scherm gaan zitten werd het al opgelost. Er zijn echter altijd dingen die ik aan kan passen aan mijn website, om het zo toegankelijker te maken.
+De brillen die ik op gehad heb, vond ik allemaal niet zo geslaagd in het simuleren van slechtziend zijn. Bij iedere bril kon je er een beetje doorheen kijken, of met dichter op het scherm gaan zitten werd het al opgelost. Er zijn echter altijd dingen die ik aan kan passen aan mijn website, om het toegankelijker te maken.
 
 Een van de dingen die ik kan doen is mijn gehele website nalopen en checken dat de font-size overal groot genoeg is. Daarnaast kan ik erop letten dat er geen rare kleurcombinaties gebruikt worden waardoor iets wellicht niet leesbaar is.
 
@@ -171,7 +171,7 @@ Het grootste deel is af en ziet er goed uit. Enkele onderdelen die lastiger zijn
 | Lina
 | ---            
 | Moet het via hamburgermenu?  
-| "Toon Categorieen", hoe?
+| "Toon alle categorieen", hoe?
 | Afbeeldingen schuiven niet helemaal goed mee            
 
 
@@ -218,7 +218,7 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 2. https://reactgo.com/change-button-text-javascript/
     Voor aanpassen van de tekst in de button, door middel van JavaScript
 3. https://codepen.io/shooft/pen/RwgGdvr
-    Poging tot gebruik van hamburgermenu, maar dat is uiteindelijk niet gelukt
+    Poging tot gebruik van hamburgermenu, maar dat is uiteindelijk niet gelukt.
     Tevens wel gebruikt voor het uitklappen van extra categorieen (section(3))
 4. https://codepen.io/shooft/pen/eYRdEPm
     Voor uitleg over (position: ;)
