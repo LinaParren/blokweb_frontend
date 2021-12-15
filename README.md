@@ -193,13 +193,24 @@ Het grootste deel is af en ziet er goed uit. Enkele onderdelen die lastiger zijn
 <details>
 
 ### Stand van zaken
-Goed:
+
+#### Goed:
+- Door middel van JavaScript de tekst laten veranderen in een button (1e pagina, section(3)). Ik ging er eerst niet vanuit dat het zou werken en wilde daarom dit weglaten, maar dacht toen probeer het toch even. 
+<img src="images/javascript1.png" width="375px" alt="Toon alle categorieen">
+<img src="images/javascript2.png" width="375px" alt="Minder categorieen">
+
+- Werken met grid en mediaquery. Deze onderdelen zijn beide nieuw en had er twijfels bij of het ging lukken, maar bij beide is het gelukt om ze toe te voegen dus ik ben content.
+<img src="images/grid.png" width="375px" alt="Grid om producten naast elkaar te plaatsen">
+
+- De balk die sticky blijft (1e en 2e pagina, section(1)). Dit stelt opzich niet heel veel voor, maar het ziet er zo professioneel uit en dat vind ik leuk. 
+<img src="images/stickybalk.png" width="375px" alt="Balk blijft plakken als je scrollt">
+
 
 
 Lastig:
 - Door middel van JavaScript meer regels tevoorschijn laten komen (1e pagina, section(3)). Er komt namelijk maar een regel bij, terwijl het er meer zouden moeten zijn.
-<img src="images/javascript1.png" alt="Zonder categorie erbij">
-<img src="images/javascript2.png" alt="Met categorie erbij">
+<img src="images/javascript1.png" width="375px" alt="Zonder categorie erbij">
+<img src="images/javascript2.png" width="375px" alt="Met categorie erbij">
 
 
 ### Screenshot(s)
