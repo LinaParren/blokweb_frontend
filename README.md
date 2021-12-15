@@ -191,10 +191,16 @@ Het grootste deel is af en ziet er goed uit. Enkele onderdelen die lastiger zijn
 ## Eindgesprek (week 5)
 
 <details>
-<summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Goed:
+
+
+Lastig:
+- Door middel van JavaScript meer regels tevoorschijn laten komen (1e pagina, section(3)). Er komt namelijk maar een regel bij, terwijl het er meer zouden moeten zijn.
+<img src="images/javascript1.png" alt="Zonder categorie erbij">
+<img src="images/javascript2.png" alt="Met categorie erbij">
+
 
 ### Screenshot(s)
 
@@ -209,9 +215,6 @@ hier screenshot(s) van je eindresultaat
 ## Bronnenlijst
 
 <details open>
-<summary>continu bijhouden terwijl je werkt</summary>
-
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
     Voor het opfrissen van mijn kennis over Flexbox

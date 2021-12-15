@@ -40,17 +40,66 @@ nav > ul{
   align-items: center;
 }
 
-nav > ul > li:nth-of-type(2) > img{
+nav > ul > li:nth-of-type(3) > img{
   width: 90px;
 }
 
-nav > ul > li:nth-of-type(3) > img{
+nav > ul > li:nth-of-type(4) > img{
   width: 45px;
 }
 
-nav > ul > li > a{
+/* Menu uitklappen */
+nav > ul > li > button{
   color: var(--tekst);
+  font-size: 1.1em;
   font-weight: bold;
+  border: none;
+  background-color: white;
+}
+
+nav > ul > li > form{
+  transform:translateY(-100%);
+  display: none;
+  position: absolute;
+  left:0;
+	right:0;
+	top:0;
+}
+
+nav > ul > li > form > fieldset{
+  width: 100%;
+  border: none;
+}
+
+nav > ul > li > form > fieldset > legend{
+  width: 100%;
+  background-color: var(--lichtgroen);
+}
+
+nav > ul > li > form > fieldset > legend > button{
+  color: white;
+  font-size: 1.2em;
+  padding: 0.5em;
+  background-color: var(--lichtgroen);
+  border: none;
+}
+
+nav > ul > li > form > fieldset > p{
+  color: var(--tekst);
+  padding: 0.5em;
+  border-bottom: 0.1em solid var(--donkergroen);
+}
+
+nav > ul > li > form.toonMenu{
+	transform:translateY(0%);
+  z-index: 30;
+
+  display: flex;
+  background-color: white;
+
+  height: auto;
+  margin: 0;
+  box-shadow: 0 0 0.6em 0 var(--lichtgrijs);
 }
 
 
@@ -60,7 +109,7 @@ nav > ul > li > a{
 .pagina1 section:nth-of-type(1){
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 20;
   
   height: 3.8em;
   width: 100%;
@@ -290,8 +339,7 @@ nav > ul > li > a{
 }
 
 
-/* ------------- */
-
+/* Toevoegen extra categorie */
 .pagina1 section:nth-of-type(3) > ul > li:nth-of-type(n+11).toonRijen {
 	transform:translateY(0%);
 
@@ -305,9 +353,6 @@ nav > ul > li > a{
   padding-top: 0.3em;
   margin-bottom: 0.6em;
 }
-
-/* --------------- */
-
 
 
 /* ---------- */
@@ -434,13 +479,17 @@ nav > ul > li > a{
   border: none;
 }
 
-.pagina1 section:nth-of-type(5) > fieldset{
+.pagina1 section:nth-of-type(5) > form > fieldset{
   width: 50%;
   border: none;
   resize: none;
 }
 
-.pagina1 section:nth-of-type(5) input{
+.pagina1 section:nth-of-type(5) > form > fieldset > label{
+  display: block;
+}
+
+.pagina1 section:nth-of-type(5) > form > input{
   display: flex;
   align-content: flex-end;
   color: white;
@@ -495,6 +544,7 @@ nav > ul > li > a{
 /* ---------- */
 
 
+
 /* NAVIGATIE WORDT BREDER */
 @media (min-width: 760px){
   nav {
@@ -511,10 +561,6 @@ nav > ul > li > a{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
-  }
-
-  .pagina1 section:nth-of-type(2) > ul > li{
-    width: span 1;
   }
 
   .pagina1 section:nth-of-type(2) > ul > li:nth-of-type(1){
@@ -551,6 +597,7 @@ nav > ul > li > a{
     height: 20em;
   }
 }
+
 
 
 
@@ -647,6 +694,7 @@ CSS VOOR 2e PAGINA
 
 .pagina2 section:nth-of-type(2) > a > p{
   color: var(--tekst);
+  font-weight: bold;
   padding: 1em;
   cursor: pointer;
 }
@@ -736,13 +784,17 @@ CSS VOOR 2e PAGINA
   border: none;
 }
 
-.pagina2 section:nth-of-type(4) > fieldset{
+.pagina2 section:nth-of-type(4) > form > fieldset{
   width: 50%;
   border: none;
   resize: none;
 }
 
-.pagina2 section:nth-of-type(4) input{
+.pagina2 section:nth-of-type(4) > form > fieldset > label{
+  display: block;
+}
+
+.pagina2 section:nth-of-type(4) > form > input{
   display: flex;
   align-content: flex-end;
   color: white;
@@ -800,14 +852,7 @@ CSS VOOR 2e PAGINA
   .pagina2 section:nth-of-type(3) > ul{
     display: grid;
     grid-template-columns:repeat(auto-fit, minmax(15em, 1fr));
-    grid-gap: 1em;
-    height: 20em;
-  }
-  .pagina2 section:nth-of-type(3) > ul > article{
-    display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(15em, 1fr));
-    grid-gap: 1em;
-    height: 20em;
+    grid-gap: 4em;
   }
 }
 
