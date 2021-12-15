@@ -36,11 +36,11 @@ Responsive
 ### Je opdracht:
 PLUS Supermarkt: https://www.plus.nl
 
-#### Screenshot van de eerste pagina (small screen): 
+#### Screenshot van de eerste pagina: 
 Home page
-<img src="images/pagina1.png" width="375px" alt="home">
+<img src="images/pagina1.png" width="375px" alt="Home">
 
-#### Screenshot van de tweede pagina (small screen):
+#### Screenshot van de tweede pagina:
 Snoep, koek, chips, zoutjes, noten
 <img src="images/pagina2.png" width="375px" alt="Snoep, koek, chips, zoutjes, noten">
  
@@ -55,11 +55,11 @@ Snoep, koek, chips, zoutjes, noten
 ### de hele pagina: 
 <img src="images/deels_af.png" width="375px" alt="breakdown van de hele pagina">
 
-### dynamisch deel (bijv menu): 
-<img src="images/breakdown1.png" width="375px" alt="breakdown van een dynamisch deel">
+### dynamisch deel (section(2), blokken met info): 
+<img src="images/breakdown1.png" width="375px" alt="section(2), blokken met info">
 
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/breakdown2.png" width="375px" alt="breakdown van nog een dynamisch deel">
+### nog een dynamisch deel (lijst met categorieen): 
+<img src="images/breakdown2.png" width="375px" alt="lijst met categorieen">
 
 </details>
 
@@ -126,7 +126,6 @@ Ik ben gestart met de tweede pagina. Deze loopt echter niet helemaal lekker met 
 ## Toegankelijkheidstest (week 4)
 
 <details>
-<summary>uitwerken na test in 8e voortgang</summary>
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
@@ -206,16 +205,32 @@ Het grootste deel is af en ziet er goed uit. Enkele onderdelen die lastiger zijn
 <img src="images/stickybalk.png" width="375px" alt="Balk blijft plakken als je scrollt">
 
 
-
-Lastig:
+#### Lastig:
 - Door middel van JavaScript meer regels tevoorschijn laten komen (1e pagina, section(3)). Er komt namelijk maar een regel bij, terwijl het er meer zouden moeten zijn.
 <img src="images/javascript1.png" width="375px" alt="Zonder categorie erbij">
 <img src="images/javascript2.png" width="375px" alt="Met categorie erbij">
 
+- Het menu responsive maken, zodat het losse kopjes worden als je de pagina groter maakt. Help. 
 
-### Screenshot(s)
+- Ervoor zorgen dat afbeeldingen fijn mee schalen als je het scherm groter of kleiner maakt. Ze zien er nu redelijk goed uit, maar het kan nog stukken beter. 
+<img src="images/afbeeldingen1.png" width="375px" alt="Zonder categorie erbij">
+<img src="images/afbeeldingen2.png" width="375px" alt="Met categorie erbij">
 
-hier screenshot(s) van je eindresultaat
+
+### Screenshots
+
+#### Pagina 1
+<img src="images/screenshot1.1.png" width="375px" alt="Deel 1">
+<img src="images/screenshot1.2.png" width="375px" alt="Deel 2">
+<img src="images/screenshot1.3.png" width="375px" alt="Deel 3">
+<img src="images/screenshot1.4.png" width="375px" alt="Deel 4">
+
+
+#### Pagina 2
+<img src="images/screenshot2.1.png" width="375px" alt="Deel 1">
+<img src="images/screenshot2.2.png" width="375px" alt="Deel 2">
+<img src="images/screenshot2.3.png" width="375px" alt="Deel 3">
+
 
 </details>
 

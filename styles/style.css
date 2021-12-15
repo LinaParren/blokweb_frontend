@@ -41,11 +41,11 @@ nav > ul{
 }
 
 nav > ul > li:nth-of-type(3) > img{
-  width: 90px;
+  width: 5.6em;
 }
 
 nav > ul > li:nth-of-type(4) > img{
-  width: 45px;
+  width: 2.8em;
 }
 
 /* Menu uitklappen */
@@ -156,7 +156,7 @@ nav > ul > li > form.toonMenu{
   
   
   font-size: 1em;
-  border: 1px solid var(--lichtgrijs);
+  border: 0.1em solid var(--lichtgrijs);
 
   background-image: url(../images/plus.nl/zoeken.png);
   background-repeat: no-repeat;
@@ -238,7 +238,7 @@ nav > ul > li > form.toonMenu{
   position: absolute;
   right: 10%;
   left: 10%;
-  top: 5em;
+  top: 6em;
 
   background-color: white;
   width: 80%;
@@ -250,17 +250,14 @@ nav > ul > li > form.toonMenu{
   z-index: 0;
 }
 
-.pagina1 section:nth-of-type(2) > ul > li > section > p:first-of-type{
+.pagina1 section:nth-of-type(2) > ul > li > section > p{
   color: red;
   border: solid 0.1em red;
   text-transform: uppercase;
-  padding: 0.1em 0.1em;
+  padding: 0.5em;
   height: 100%;
 }
-.pagina1 section:nth-of-type(2) > ul > li > section > p:last-of-type{
-  color: var(--tekst);
-  padding: 0.1em 0.1em;
-}
+
 .pagina1 section:nth-of-type(2) > ul > li > section > img{
   padding: 0.1em 0.1em;
   width: 50%;
@@ -394,7 +391,7 @@ nav > ul > li > form.toonMenu{
   margin-top: 1em;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 32px 0 8px;
+  padding: 0 2em 0 0.5em;
 
   width: 90%;
   height: 2.7em;
@@ -402,7 +399,7 @@ nav > ul > li > form.toonMenu{
   min-width: 20em;
 
   background-color: white;
-  border: 1px solid var(--lichtgroen);
+  border: 0.1em solid var(--lichtgroen);
   border-radius: 0.6em;
 
   position: relative;
@@ -433,7 +430,7 @@ nav > ul > li > form.toonMenu{
   right: 10%;
   left: 10%;
   
-  padding: 35px 0px;
+  padding: 2.1em 0em;
   max-width: 80%;
 }
 
@@ -546,7 +543,7 @@ nav > ul > li > form.toonMenu{
 
 
 /* NAVIGATIE WORDT BREDER */
-@media (min-width: 760px){
+@media (min-width: 47em){
   nav {
     width: 90%;
     margin-left: auto;
@@ -556,7 +553,7 @@ nav > ul > li > form.toonMenu{
 
 
 /* BLOKKEN MET INFO WORDT BREDER */
-@media (min-width: 760px){
+@media (min-width: 47em){
   .pagina1 section:nth-of-type(2) > ul{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -571,7 +568,7 @@ nav > ul > li > form.toonMenu{
 
 
 /* LIJST MET CATEGORIEEN WORDT BREDER */
-@media (min-width: 760px){
+@media (min-width: 47em){
   .pagina1 section:nth-of-type(3) > ul{
     display: grid;
     grid-template-columns:repeat(auto-fit, minmax(15em, 1fr));
@@ -581,7 +578,7 @@ nav > ul > li > form.toonMenu{
 
 
 /* ZOEK RECEPT WORDT BREDER */
-@media (min-width: 600px){
+@media (min-width: 37em){
   .pagina1 section:nth-of-type(4) > section{
     z-index: 10;
   }
@@ -589,7 +586,7 @@ nav > ul > li > form.toonMenu{
 
 
 /* INFO WORDT BREDER */
-@media (min-width: 760px){
+@media (min-width: 47em){
   .pagina1 section:nth-of-type(6) > ul{
     display: grid;
     grid-template-columns:repeat(auto-fit, minmax(15em, 1fr));
@@ -660,7 +657,7 @@ CSS VOOR 2e PAGINA
   
   
   font-size: 1em;
-  border: 1px solid var(--lichtgrijs);
+  border: 0.1em solid var(--lichtgrijs);
 
   background-image: url(../images/plus.nl/zoeken.png);
   background-repeat: no-repeat;
@@ -848,7 +845,7 @@ CSS VOOR 2e PAGINA
 
 
 /* LIJST MET PRODUCTEN WORDT BREDER */
-@media (min-width: 760px){
+@media (min-width: 47em){
   .pagina2 section:nth-of-type(3) > ul{
     display: grid;
     grid-template-columns:repeat(auto-fit, minmax(15em, 1fr));
@@ -857,7 +854,7 @@ CSS VOOR 2e PAGINA
 }
 
 /* INFO WORDT BREDER */
-@media (min-width: 760px){
+@media (min-width: 47em){
   .pagina2 section:nth-of-type(5) > ul{
     display: grid;
     grid-template-columns:repeat(auto-fit, minmax(15em, 1fr));
