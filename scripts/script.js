@@ -7,7 +7,7 @@ var deButton = document.querySelector("section button");
 
 // Functie voor uitklappen menu
 function laatMenuzien(){
-	let hetMenu = document.querySelector("nav ul form");
+	let hetMenu = document.querySelector("nav ul li form");
 	hetMenu.classList.toggle("toonMenu");
 }
 

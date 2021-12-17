@@ -19,6 +19,11 @@
   --tekst: #333;
 }
 
+a{
+  color: var(--tekst);
+  text-decoration: none;
+}
+
 
 /* ---------- */
 /* HEADER EN ALLES WAT ERIN STAAT */
@@ -84,10 +89,11 @@ nav > ul > li > form > fieldset > legend > button{
   border: none;
 }
 
-nav > ul > li > form > fieldset > p{
+nav > ul > li > form > fieldset > a{
   color: var(--tekst);
   padding: 0.5em;
   border-bottom: 0.1em solid var(--donkergroen);
+  display: flex;
 }
 
 nav > ul > li > form.toonMenu{
@@ -99,7 +105,7 @@ nav > ul > li > form.toonMenu{
 
   height: auto;
   margin: 0;
-  box-shadow: 0 0 0.6em 0 var(--lichtgrijs);
+  box-shadow: 0 0 0.6em var(--lichtgrijs);
 }
 
 
@@ -148,7 +154,7 @@ nav > ul > li > form.toonMenu{
   resize: none;
 }
 
-.pagina1 section:nth-of-type(1) input {
+.pagina1 section:nth-of-type(1) input{
   display: block;
   margin: 0.4em;
   padding-left: 0.5em;
@@ -168,7 +174,7 @@ nav > ul > li > form.toonMenu{
   color: var(--tekst);
 }
 
-.pagina1 section:nth-of-type(1) textarea{
+.pagina1 section:nth-of-type(1) input.text{
   resize: none;
 }
 
@@ -199,12 +205,17 @@ nav > ul > li > form.toonMenu{
   color: var(--tekst);
 }
 
-.pagina1 section:nth-of-type(2) > ul > li > p{
+.pagina1 section:nth-of-type(2) > ul > li > a{
   max-width: 50%;
   margin: 1em;
   color: var(--tekst);
 }
 
+.pagina1 section:nth-of-type(2) > ul > li > p{
+  max-width: 50%;
+  margin: 1em;
+  color: var(--tekst);
+}
 
 .pagina1 section:nth-of-type(2) > ul > li:nth-of-type(1){
   background-image: url(../images/plus.nl/Boodschappenpakket.jpg);
@@ -278,13 +289,6 @@ nav > ul > li > form.toonMenu{
   padding-bottom: 2em;
 }
 
-.pagina1 section:nth-of-type(3) > ul > li > p{
-  color: var(--tekst);
-  font-size: 1em;
-  font-weight: bold;
-  padding-left: 1em;
-}
-
 .pagina1 section:nth-of-type(3) > ul > li > a{
   color: var(--tekst);
   font-size: 1em;
@@ -302,7 +306,7 @@ nav > ul > li > form.toonMenu{
   align-items: center;
 
   background-color: white;
-  box-shadow: 0 0 0.6em 0 var(--lichtgrijs);
+  box-shadow: 0 0 0.6em var(--lichtgrijs);
   border-radius: 0.2em;
 
   margin-top: 1em;
@@ -325,7 +329,7 @@ nav > ul > li > form.toonMenu{
   justify-content: center;
 
   background-color: white;
-  box-shadow: 0 0 0.6em 0 var(--lichtgrijs);
+  box-shadow: 0 0 0.6em var(--lichtgrijs);
   border: solid 0.2em var(--donkergroen);
   border-radius: 0.2em;
   cursor: pointer;
@@ -337,13 +341,13 @@ nav > ul > li > form.toonMenu{
 
 
 /* Toevoegen extra categorie */
-.pagina1 section:nth-of-type(3) > ul > li:nth-of-type(n+11).toonRijen {
+.pagina1 section:nth-of-type(3) > ul > li.toonRijen{
 	transform:translateY(0%);
 
   display: flex;
   align-items: center;
   background-color: white;
-  box-shadow: 0 0 0.6em 0 var(--lichtgrijs);
+  box-shadow: 0 0 0.6em var(--lichtgrijs);
   border-radius: 0.2em;
   margin-top: 1em;
 
@@ -669,7 +673,7 @@ CSS VOOR 2e PAGINA
   color: var(--tekst);
 }
 
-.pagina2 section:nth-of-type(1) textarea{
+.pagina2 section:nth-of-type(1) input{
   resize: none;
 }
 
@@ -710,7 +714,7 @@ CSS VOOR 2e PAGINA
   
 }
 
-.pagina2 section:nth-of-type(3) > ul > li{
+.pagina2 section:nth-of-type(3) > ul > li > a{
   display: flex;
   background-color: white;
   
@@ -721,19 +725,23 @@ CSS VOOR 2e PAGINA
   border-bottom: 0.1em solid var(--lichtgrijs);
 }
 
+.pagina2 section:nth-of-type(3) > ul > li > a > div{
+  margin-left: 1em;
+}
+
 .pagina2 section:nth-of-type(3) > h3{
   color: var(--tekst);
   font-size: 1.5em;
   font-weight: bold;
 }
 
-.pagina2 section:nth-of-type(3) > ul > li > div > p:nth-of-type(1){
+.pagina2 section:nth-of-type(3) > ul > li > a > div > p:nth-of-type(1){
   color: var(--donkergroen);
 }
-.pagina2 section:nth-of-type(3) > ul > li > div > p:nth-of-type(3){
+.pagina2 section:nth-of-type(3) > ul > li > a > div > p:nth-of-type(3){
   color: #666;
 }
-.pagina2 section:nth-of-type(3) > ul > li > div > p:nth-of-type(4){
+.pagina2 section:nth-of-type(3) > ul > li > a > div > p:nth-of-type(4){
   font-size: 1.5em;
   font-weight: bold;
   align-items: flex-end;
